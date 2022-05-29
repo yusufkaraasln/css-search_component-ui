@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="menu-search">
+        <form action="">
+          <input type="text" placeholder="Start typing to search" />
+          <div class="search-img">
+            <img src="search.svg" alt="" />
+          </div>
+        </form>
+
+        <h4>Popular Searches</h4>
+        <ul>
+          <li class="active"><a href="#">Air Transport</a></li>
+          <li><a href="#">Aviation</a></li>
+          <li><a href="#">Mekaniske Verksted</a></li>
+          <li><a href="#">Port Authority</a></li>
+          <li><a href="#">Sporvei</a></li>
+          <li><a href="#">Bergens Kreditbank</a></li>
+        </ul>
+      </div>
+
+      <div class="tag-search">
+        <form action="">
+          <input type="text" placeholder="Start typing to search" />
+          <div class="search-img">
+            <img src="search.svg" alt="" />
+          </div>
+        </form>
+
+        <ul>
+          <li>
+            <label>
+              <input type="radio" name="type" checked value="project" />
+              <span class="text">Projects</span>
+            </label>
+          </li>
+
+          <li>
+            <label>
+              <input type="radio" name="type" value="images" />
+              <span class="text">Images</span>
+            </label>
+          </li>
+
+          <li>
+            <label>
+              <input type="radio" name="type" value="people" />
+              <span class="text">People</span>
+            </label>
+          </li>
+        </ul>
+      </div>
+
+      <div class="section-search">
+        <div class="section-content">
+          <div class="country">
+            <span>Country</span>
+            <img src="arrow.svg" alt="">
+            <select>
+                
+              <option value="">Turkey</option>
+              <option value="">United States</option>
+            </select>
+          </div>
+          <div class="city">
+              <span>City</span>
+              <input type="text" placeholder="Search a City">
+          </div>
+        </div>
+
+        <div class="section-confirm">
+          <button class="cancel">Cancel</button>
+          <button class="apply">Apply Filters</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
