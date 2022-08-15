@@ -1,6 +1,6 @@
 # css-search_component-ui
 
-##Search Components UI 
+## Search Components UI 
 
 This project was built using `SCSS` and `HTML` technology.
 
